@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="announcement">AYBU ANNOUNCEMENT</string>
+    <string name="food">AYBU FOOD LIST</string>
+    <string name="news">AYBU NEWS</string>
+    <string name="view">View</string>
+</resources>

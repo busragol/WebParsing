@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/textAn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/announcement"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/btn_an1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="View"
+            android:padding="10dp"
+            android:background="@drawable/shadow"
+            />
+        <Button
+            android:id="@+id/btn_an2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="View"
+            android:background="@drawable/shadow"/>
+        <Button
+            android:id="@+id/btn_an3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="View"
+            android:background="@drawable/shadow"/>
+
+        <Button
+            android:id="@+id/btn_an4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="View"
+            android:background="@drawable/shadow"/>
+        <Button
+            android:id="@+id/btn_an5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="View"
+            android:background="@drawable/shadow"/>
+        <Button
+            android:id="@+id/btn_an6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="View"
+            android:background="@drawable/shadow"/>
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/mainweb">
+        </WebView>
+    </LinearLayout>
+
+
+
+</ScrollView>
